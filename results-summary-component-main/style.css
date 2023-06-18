@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    color: #cbc7fe;
+}
+main {
+    width: 350px;
+    margin: 0 auto;
+}
+.top {
+   
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.result {
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    margin: 0 auto;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+
+h1, .num {
+    color: #fff;
+}
+.num {
+    font-size: 50px;
+    font-weight: 800;
+}
+h3 {
+    padding: 15px;
+}
+.text {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.lower-text {
+    margin: 5px;
+}
+h4 {
+    color: black;
+    margin: 0.9rem 0;
+}
+
+.summary {
+    margin: 0.8em;
+}
+img {
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 0.7rem;
+}
+.reaction {
+   background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.react{
+  color: red;
+}
+
+span {
+  color: black;
+}
+
+.memory {
+  background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.memo  {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+ background-color: hsl(166, 100%, 37%, 0.1);
+    }
+.ver {
+ color: hsl(166, 100%, 37%);
+}
+.visual {
+ background-color: hsl(234, 85%, 45%, 0.1);
+}
+.vis {
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    margin-top: 1em;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 15px;
+    border-radius: 25px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: hsl(241, 81%, 54%);
+}
+.attribution {
+    font-size: 1rem;
+}
+@media (min-width:800px) {
+    body {
+        height: 100vh;
+    }
+    main {
+        margin-top: 5em;
+        max-width: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .top {
+        width: 40%;
+        border-radius: 25px;
+        padding: 2em;
+        height: 100%;
+    }
+    .summary {
+        width: 40%;
+        height: 70%;
+        margin: 0;
+        padding: 1em;
+        box-shadow: 3px 8px 20px 0px rgba(228, 228, 237, 1);
+        border-radius: 25px;
+       
+    }
+    .attribution {
+         text-align: center;
+         margin-top: 1em;
+    }
+}
